@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, <span th:text="${profile.user.name}"></span>!</h1>
+    <p>Your GPA: <span th:text="${profile.gpa}"></span></p>
+    <p>Your Attendance: <span th:text="${profile.attendancePercentage}"></span>%</p>
+</body>
+</html>
